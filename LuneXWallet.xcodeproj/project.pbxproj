@@ -1,0 +1,27 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		A1 /* App */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = LuneXWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2 /* LuneXWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuneXWalletApp.swift; sourceTree = "<group>"; };
+		A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4 /* Glass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glass.swift; sourceTree = "<group>"; };
+		A5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A6 /* SecondaryViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViews.swift; sourceTree = "<group>"; };
+		B1 /* Products */ = {isa = PBXGroup; children = (A1,); name = Products; sourceTree = "<group>"; };
+		B2 /* Sources */ = {isa = PBXGroup; children = (A2,A3,A4,A5,A6,); path = LuneXWallet; sourceTree = "<group>"; };
+		B3 /* Main */ = {isa = PBXGroup; children = (B2,B1,); sourceTree = "<group>"; };
+		C1 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (D2,D3,D4,D5,D6,); runOnlyForDeploymentPostprocessing = 0; };
+		D2 = {isa = PBXBuildFile; fileRef = A2; }; D3 = {isa = PBXBuildFile; fileRef = A3; }; D4 = {isa = PBXBuildFile; fileRef = A4; }; D5 = {isa = PBXBuildFile; fileRef = A5; }; D6 = {isa = PBXBuildFile; fileRef = A6; };
+		E1 /* target */ = {isa = PBXNativeTarget; buildConfigurationList = F2; buildPhases = (C1,); buildRules = (); dependencies = (); name = LuneXWallet; productName = LuneXWallet; productReference = A1; productType = "com.apple.product-type.application"; };
+		E2 /* project */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 1600; }; buildConfigurationList = F1; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = B3; productRefGroup = B1; projectDirPath = ""; projectRoot = ""; targets = (E1,); };
+		F1 = {isa = XCConfigurationList; buildConfigurations = (G1,G2,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		F2 = {isa = XCConfigurationList; buildConfigurations = (H1,H2,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		G1 = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; }; name = Debug; }; G2 = {isa = XCBuildConfiguration; buildSettings = { CLANG_ENABLE_MODULES = YES; }; name = Release; };
+		H1 = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.lunex.wallet; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		H2 = {isa = XCBuildConfiguration; buildSettings = { ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.lunex.wallet; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+	};
+	rootObject = E2;
+}
