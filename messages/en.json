@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "siteName": "LuneX Wallet",
+    "title": "LuneX Wallet — moonlight for the ledger",
+    "description": "LuneX is a demonstration web wallet. All data is fictional. No real financial operations, no custody.",
+    "keywords": "crypto wallet, LuneX, demo wallet, web wallet, portfolio",
+    "ogAlt": "LuneX Wallet interface"
+  },
+  "nav": {
+    "product": "Atelier",
+    "method": "Method",
+    "security": "Security",
+    "faq": "FAQ",
+    "login": "Sign in",
+    "cabinet": "Cabinet",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "hero": {
+    "kicker": "01 / Atelier wallet",
+    "title1": "Coin in shade.",
+    "title2": "Ledger in light.",
+    "lead": "A wallet as a print shop: copper rules, bone type, lunar volume. No neon. Only the discipline of numbers.",
+    "cta": "Enter cabinet",
+    "secondary": "See the atelier"
+  },
+  "stats": {
+    "volume": "demo volume",
+    "render": "interface beat",
+    "real": "live money",
+    "visual": "layout scale"
+  },
+  "gallery": {
+    "kicker": "02 / Material",
+    "title": "Not a catalogue UI.",
+    "lead": "LuneX is built as an object: concrete, oxidised copper, film. Still lifes of a workshop — not stock “crypto future”.",
+    "eclipse": "Eclipse / series 01",
+    "object": "Object “Sickle”"
+  },
+  "product": {
+    "kicker": "03 / Atelier",
+    "title": "Six planes of the ledger.",
+    "lead": "Each cell is a gesture. Mock data, open API contract.",
+    "items": {
+      "portfolio": { "t": "Portfolio", "d": "Sum, daily move, mix. Like a newspaper spread." },
+      "send": { "t": "Transfer", "d": "Form with a balance check. Demo — a gesture only." },
+      "history": { "t": "Tape", "d": "In, out, swap. Three statuses, no garnish." },
+      "api": { "t": "API layer", "d": "WalletApi. Your backend replaces mock in client.ts." },
+      "auth": { "t": "Access", "d": "Stub: any email opens the cabinet." },
+      "adaptive": { "t": "Grid", "d": "Columns break honestly, no card soup." }
+    }
+  },
+  "method": {
+    "kicker": "04 / Method",
+    "title": "Three beats, like an engraving.",
+    "cap": "Vault study",
+    "s1t": "Look",
+    "s1d": "Equity curve and allocation donut — immediately, no toy widgets.",
+    "s2t": "Check",
+    "s2d": "Per-asset sparklines and volume bars. Swap the demo series for REST.",
+    "s3t": "Release",
+    "s3d": "Send is theatre. Funds do not leave."
+  },
+  "quote": {
+    "text": "“A figure should sound quiet, like copper on stone — otherwise it is advertising, not a ledger.”",
+    "cite": "— LuneX Labs manifesto, 2026"
+  },
+  "faq": {
+    "kicker": "05 / FAQ",
+    "title": "Three straight answers.",
+    "q1": "Is this a real wallet?",
+    "a1": "No. A UI prototype with no chain and no keys.",
+    "q2": "How do I attach a backend?",
+    "a2": "Implement WalletApi and swap it in lib/api/client.ts instead of mockApi.",
+    "q3": "Do I need to register?",
+    "a3": "No. Any credentials on sign-in are enough — it is a stub."
+  },
+  "cta": {
+    "kicker": "06 / Access",
+    "title": "The cabinet is open as a mock-up.",
+    "lead": "Sign in with any string. Charts are already inside.",
+    "btn": "Open cabinet"
+  },
+  "disclaimer": "LuneX Wallet is a demonstration project. All data is fictional and used only to visualize the interface. The service does not execute real financial operations and does not store user funds.",
+  "footer": {
+    "blurb": "A print shop for digital ledgers. Fictional data. No custody.",
+    "product": "Atelier",
+    "features": "Planes",
+    "cabinet": "Cabinet",
+    "company": "Workshop",
+    "about": "About",
+    "press": "Press",
+    "legal": "Legal",
+    "copy": "© 2026 LuneX Labs. Prototype only.",
+    "notFinance": "Not a financial service."
+  },
+  "auth": {
+    "title": "Access",
+    "lead": "Stub. Any credentials open a demo session.",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Continue",
+    "busy": "Signing in…",
+    "error": "Could not sign in. Try again.",
+    "note": "Interface demo. No financial operations."
+  },
+  "cabinet": {
+    "overview": "Overview",
+    "send": "Send",
+    "site": "Website",
+    "logout": "Log out",
+    "portfolio": "Capital",
+    "change24": "24h",
+    "assets": "Assets",
+    "ops": "Tape",
+    "equity": "Equity curve",
+    "alloc": "Mix",
+    "volume": "Volume",
+    "type": "Type",
+    "asset": "Asset",
+    "amount": "Amount",
+    "counterparty": "Counterparty",
+    "status": "Status",
+    "in": "In",
+    "out": "Out",
+    "swap": "Swap",
+    "sendTitle": "Release",
+    "sendLead": "Simulated. Funds do not leave.",
+    "address": "Address",
+    "confirm": "Confirm (demo)",
+    "fail": "Insufficient funds (demo) or request error.",
+    "demoNote": "Demo data. Not financial operations and not custody."
+  },
+  "legal": {
+    "privacyTitle": "Privacy policy",
+    "privacyBody": "The prototype collects no personal data, runs no analytics, stores no keys. Sign-in is a stub.",
+    "termsTitle": "Terms of use",
+    "termsBody": "The interface exists only to demonstrate design. Balances and transactions are fictional.",
+    "updated": "Updated 9 September 2026"
+  }
+}
